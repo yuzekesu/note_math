@@ -1,52 +1,59 @@
 \section{Kapitel 1} 
-\subsection{\textbf{axiom}}\label{axiom} 
+\subsection{axiom}\label{axiom} 
     \textbf{\cite{axiom}} Påstående om \textbf{grundläggande begreppen} som man accepterar som sanna eller korrekta, \textbf{är ett självklart sant påstående som antas vara sant utan bevis.}
-\subsection{\textbf{parallellaxiom}}\label{parallellaxiom} 
-    See \textbf{axiom} i [\ref{axiom}].
-    \subsubsection{Exempel:}
+\subsection{parallellaxiom}\label{parallellaxiom} 
+    \subsubsection{\textbf{[ref: \ref{axiom}]} Exempel:}
     Om $L$ är en rät linje och $P$ är en punkt som inte ligger på $L$, så finns det en och endast en rät linje genom $P$ som är parallell med $L$, d.v.s som inte skär $L$.
-\subsection{\textbf{härledningsregel}}\label{härledningsregel}
+\subsection{härledningsregel}\label{härledningsregel}
     \textbf{\cite{härledningsregel}} Det finns ett antal tillåtna logiska regler - s.k. \textbf{härledningsregler} - som man kan använda för att härleda ett nytt sant påstående \textbf{från axiomen}[\ref{axiom}].
     \subsubsection{Exempel:}
         \paragraph{Regel 1.}
             Om vi vet att ett påstående $p$ medför ett påstående $q$ och vi kan visa att $p$ är sant, så är också $q$ sant.
         \paragraph{Regel 2.}
             Om vi vet att ett påstående $p$ medför ett annat påstående $q$ och att $q$ medför ett tredje påstående $r$, kan vi dra slutsatsen att $p$ medför $r$.
-\subsection{\textbf{sats \& teorem}}\label{sats}
-    \textbf{\cite{sats}}Med hjälp av härledningsregler[\ref{härledningsregel}] skapar vi nya nåstående som kallas för \textbf{bevis} och det nya sanna påståendet kallas för en \textbf{sats} (eller ett \textbf{teorem}). Satserna kan sedan i sin tur utnyttjas som delar i bevis av ytterligare satser. En matematisk sats kan ofta formuleras på förljande sätt:
+\subsection{sats \& teorem}\label{sats}
+    \textbf{\cite{sats}} Med hjälp av härledningsregler[\ref{härledningsregel}] skapar vi nya nåstående som kallas för \textbf{bevis} och det nya sanna påståendet kallas för en \textbf{sats} (eller ett \textbf{teorem}). Satserna kan sedan i sin tur utnyttjas som delar i bevis av ytterligare satser. En matematisk sats kan ofta formuleras på förljande sätt:
     \subsubsection{Exempel:}
         Om påståendet $p$ är sant, så är också påstående $q$ sant.
     \newline \hfill \break I det ovanståend exemplet. Påstående $p$ kallas \textbf{satsens förutsättning} och påståendet $q$ kallas \textbf{satsens slutsats}(Observera att det är möjligt att en sats har flera förutsättningar). Man säger också att $q$ \textbf{följer} av $p$, och att $p$ \textbf{medför} $q$.
     \subsubsection{En annan exempel:}
         Om en triangel med sidorna $a$, $b$ och $c$ har en rät vinkel mellan sidorna $a$ och $b$, så är $a^2+b^2=c^2$.
-\subsection{\textbf{hjälpsats}}\label{hjälpsats}
-    See \textbf{sats} i [\ref{sats}]. En enkel \textbf{sats} som används för att bevisa en mer komplicerad sats kallar man för en \textbf{hjälpsats} (eller ett \textbf{lemma}).
-\subsection{\textbf{följdsats}}\label{följdsats}
-    See \textbf{sats} i [\ref{sats}]. En \textbf{sats} som enkelt kan bevisas med hjälp av en annan sats kallas för en \textbf{följdsats} (eller ett \textbf{korollarium}).
-\subsection{\textbf{förmodan}}\label{förmodan}
+\subsection{hjälpsats}\label{hjälpsats}
+    \textbf{[ref: \ref{sats}]} En enkel \textbf{sats} som används för att bevisa en mer komplicerad sats kallar man för en \textbf{hjälpsats} (eller ett \textbf{lemma}).
+\subsection{följdsats}\label{följdsats}
+    \textbf{[ref: \ref{sats}]} En \textbf{sats} som enkelt kan bevisas med hjälp av en annan sats kallas för en \textbf{följdsats} (eller ett \textbf{korollarium}).
+\subsection{förmodan}\label{förmodan}
     \textbf{\cite{förmodan}} För att förmulera nya satser studerar man ofta olika specialfall och försöker med hjälp av dessa få en inblick i allmänna företeelser. Sedan formulerar man ett påstående (en gissning) som man inte vet om det är sant eller falskt. Ett sådant påstående kallas för en \textbf{förmodan} (eller en \textbf{hypotes}). Ibland kan det ta lång tid att avgöa om en förmodan är sann eller inte. Det görs genom att antingen bevisa den eller ge ett motexempel som visar att den är falsk.
-\subsection{\textbf{godtyckligt objekt}}\label{godtyckligt-objekt}
+\subsection{godtyckligt objekt}\label{godtyckligt-objekt}
     \textbf{\cite{godtyckligt-objekt}} Vanligtvis påstår man i en sats att satsens[\ref{sats}] slutsats gäller för oändligt många objekt av en viss sort. För att bevisa en sådan sats kan man använda följande regel. Man bevisar att slutsatsen är sann för ett visst, inte närmare specificerat, objekt $x$ som är slumpvist utvalt bland alla tänkbara objekt av en viss sort. Man kallar ett sådant objekt för ett \textbf{godtyckligt objekt}. Eftersom objektet är godtyckligt kan samma resonemang tillämpas på alla andra objekt av samma sort. Därför är slutsatsen sann för alla objekt av denna sort. Denna rekel, som är en av matematikens härledningsregler, formuleras så här: 
     \paragraph{Regeln för generalisering.} 
         Ett påstående gäller för alla tänkbara objekt av en viss sort om vi kan visa att det är sant för ett godtyckligt objekt $x$ av denna sort.
-\subsection{\textbf{bevis}}\label{bevis}
+\subsection{bevis}\label{bevis}
     \begin{itemize}
-        \item \textbf{Existensbevis}[\ref{existensbevis}].
-        \item \textbf{Direct bevis}[\ref{direct-bevis}]. 
+        \item existensbevis[\ref{existensbevis}].
+        \item direct bevis[\ref{direct-bevis}]. 
+        \item motsägelsebevis[\ref{motsägelsebevis}].
     \end{itemize}
-\subsection{\textbf{existensbevis}}\label{existensbevis}
-    \subsubsection{Exempel av bevis[\ref{bevis}]}
+\subsection{existensbevis}\label{existensbevis}
+    \subsubsection{\textbf{[ref: \ref{bevis}]} Exempel av bevis:}
         Bevisa att ekvationen $x^2 + y^2 = z^2$ har minst en positiv heltalslösning.
         \paragraph{Bevis:} 
             Sätt $x = 3$, $y = 4$ och $z = 5$. Eftersom $3^2 + 4^2 = 5^2$ har ekvationen minst en positiv heltalslösning. $\square$
-\subsection{\textbf{direkt bevis}}\label{direct-bevis}
-    \subsubsection{Exempel av bevis[\ref{bevis}]}
+\subsection{direkt bevis}\label{direct-bevis}
+    \subsubsection{\textbf{[ref: \ref{bevis}]} Exempel av bevis:}
     Bevisa att om $a$ och $b$ är två jämna heltal, så är summan $a + b$ jämn.
         \paragraph{Bevis:} 
             Låt $a$, $b$ vara ett godtyckligt[\ref{godtyckligt-objekt}] par av jämna heltal. Från definitionen av ett jämnt heltal följer det att $a = 2n$ och $b = 2m$ för några heltal $n$ och $m$. Därför är: 
     \begin{center}
         $a + b = 2n + 2m = 2(n + m)$
     \end{center}
-
-
-    
+\subsection{motsägelsebevis}
+    \label{motsägelsebevis}
+    \textbf{[ref: \ref{bevis}]} För att bevisa en sats kan man ibland göra följande: Man antar att satsens slutsats är falsk och visar att detta antagande leder till ett påstående som motsäger förutsättningarna. Eftersom en motsägelse inte kan vara sann, kan man då dra slutsatsen att antagandet var falskt, d.v.s. att slutsatsen i själva verket är sann. Ett sådant bevis kallas för ett \textbf{motsägelsebevis}.
+\subsection{nödvändiga och tillräckliga vilkor}
+    \label{nödvändiga-och-tillräckliga-vilkor}
+    \textbf{\cite{nödvändiga-och-tillräckliga-vilkor}} Betrakta en sats på formen:
+    \begin{center}
+        Om ett påstående $p$ är sant, så är ett annat påstående $q$ också sant.
+    \end{center}
+    Man kan uttrycka ett sådant påstående på olika sätt. Exempelvis kan man säga att $q$ följer av $p$ och att $p$ medför $q$. Man kan också säga att $p$ är ett \textbf{tillräckligt villkor} för $q$ och att $q$ är ett \textbf{nödvändigt villkor} för $p$. 
